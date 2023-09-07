@@ -1,0 +1,106 @@
+* {
+  background-color: black;
+  box-sizing: border-box;
+}
+body {
+  margin: 50px;
+  position: relative;
+}
+.yellow {
+  background-color: #cccc00;
+  border: 5px solid yellow;
+}
+.yellow_light {
+  background-color: yellow;
+}
+.blue {
+  background-color: #0e3386;
+  border: 5px solid blue;
+}
+.blue_light {
+  background-color: blue;
+}
+.red {
+  background-color: #aa0000;
+  border: 5px solid red;
+}
+.red_light {
+  background-color: red;
+}
+.green {
+  background-color: #189900;
+  border: 5px solid limegreen;
+}
+.green_light {
+  background-color: limegreen;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+button {
+  cursor: pointer;
+  padding: 150px;
+  border-radius: 3px;
+  margin: 5px;
+}
+.game_over {
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgb(128, 128, 128, 0.4); /* Black w/ opacity */
+  border-radius: 10px;
+}
+.hide {
+  display: none;
+}
+.game_over div {
+  background-color: rgb(128, 128, 128, 0.4);
+  text-align: center;
+  padding: 200px;
+  font-size: 4rem;
+  font-family: monospace;
+}
+.game_over div button {
+  display: flex;
+  color: white;
+  background-color: rgb(128, 128, 128, 0.4);
+  padding: 15px;
+  padding: 15px;
+  margin: auto;
+  font-weight: bolder;
+  font-size: 1rem;
+  border: 3px solid gray;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.game_over div button:hover {
+  background-color: gray;
+  color: white;
+}
+h1 {
+  font-family: monospace;
+  text-align: center;
+  size: 2rem;
+}
+.blue_letter {
+  font-size: 3rem;
+  color: blue;
+}
+.red_letter {
+  font-size: 3rem;
+  color: red;
+}
+.green_letter {
+  font-size: 3rem;
+  color: limegreen;
+}
+.yellow_letter {
+  font-size: 3rem;
+  color: yellow;
+}
